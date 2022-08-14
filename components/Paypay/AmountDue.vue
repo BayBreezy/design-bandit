@@ -10,7 +10,7 @@
 			$29,000.00 <span class="font-light text-sm text-slate-400">(Tax Incl.)</span>
 		</h1>
 		<span class="inline-block px-4 py-3 rounded-full bg-red-50 text-red-500 text-sm">Due on {{ nextMonth }}</span>
-		<Divider class="mt-6 mb-8" />
+		<PaypayDivider class="mt-6 mb-8" />
 		<div class="flex items-center justify-between">
 			<p>Also attach pdf in email</p>
 			<label for="pdfemail" class="relative inline-block h-3 w-12">

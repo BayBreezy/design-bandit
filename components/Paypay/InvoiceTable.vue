@@ -86,4 +86,8 @@
 	export default {};
 </script>
 
-<style></style>
+<style scoped>
+	.input {
+		@apply w-full rounded-xl border bg-slate-50 px-4 py-3 text-sm font-medium placeholder:font-light;
+	}
+</style>

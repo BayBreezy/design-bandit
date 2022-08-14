@@ -1,7 +1,7 @@
 <template>
 	<header class="sticky top-0 z-40 bg-white/75 backdrop-blur-md w-full">
 		<div class="mx-auto flex items-center max-w-7xl">
-			<NuxtLink class="text-primary font-bold text-2xl p-4 lg:p-0" to="/"> PayPay. </NuxtLink>
+			<NuxtLink class="text-primary font-bold text-2xl p-4 lg:p-0" to="#"> PayPay. </NuxtLink>
 			<div class="lg:flex hidden items-center justify-between grow">
 				<nav class="flex items-center space-x-10 ml-20">
 					<template v-for="(n, i) in menu" :key="`navItem-${i}`">

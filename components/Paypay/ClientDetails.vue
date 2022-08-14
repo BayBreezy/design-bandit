@@ -14,7 +14,7 @@
 				<a class="text-slate-400 text-sm font-light" href="mailto:jaywhite@test.com">jaywhite@teest.com</a>
 			</div>
 		</div>
-		<Divider class="my-6" />
+		<PaypayDivider class="my-6" />
 		<h1 class="font-medium text-sm flex items-center space-x-2">
 			<span> Moonlight Agency Ltd </span>
 			<Micon icon="mdi:check-decagram" class="w-3 h-3 text-sky-500" />

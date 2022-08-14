@@ -1,6 +1,6 @@
 <template>
 	<div class="min-h-screen bg-gray-100">
-		<Navbar />
+		<PaypayNavbar />
 		<main class="mx-auto max-w-7xl pb-16 px-5 lg:px-0">
 			<!-- Title -->
 			<div class="w-full flex items-center justify-between mt-5 lg:mt-8">
@@ -10,15 +10,15 @@
 						<span class="font-semibold">(INV-2022-010)</span></span
 					>
 				</div>
-				<ManageInvoice />
+				<PaypayManageInvoice />
 			</div>
 			<!-- Main Section cards -->
 			<section class="lg:mt-10 mt-7 flex justify-between flex-col lg:flex-row gap-10">
 				<div class="basis-[70%] rounded-2xl bg-white p-4 lg:p-8">
 					<!-- Company -->
-					<CompanyAddress />
+					<PaypayCompanyAddress />
 					<!-- Invoice Number & Billed To -->
-					<BilledTo />
+					<PaypayBilledTo />
 					<!-- Detail Headder -->
 					<div class="w-full flex items-center justify-between mt-7">
 						<div class="text-sm">
@@ -33,13 +33,13 @@
 						</button>
 					</div>
 					<!-- Item Table -->
-					<InvoiceTable />
+					<PaypayInvoiceTable />
 				</div>
 				<div class="space-y-10">
 					<!-- client details -->
-					<ClientDetails />
+					<PaypayClientDetails />
 					<!-- amount due -->
-					<AmountDue />
+					<PaypayAmountDue />
 					<div class="flex gap-x-5 w-full max-w-full">
 						<button
 							class="px-5 py-5 w-full rounded-2xl bg-white hover:bg-primary-50 transition-all text-primary font-semibold flex items-center justify-center"
@@ -65,9 +65,15 @@
 				</div>
 			</section>
 		</main>
-		<Bottombar />
-		<SendModal ref="sendModal" />
+		<PaypayBottombar />
+		<PaypaySendModal ref="sendModal" />
 	</div>
 </template>
+
+<style>
+	html {
+		font-size: 15px;
+	}
+</style>
 
 <script setup></script>
