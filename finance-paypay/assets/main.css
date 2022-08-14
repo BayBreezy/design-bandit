@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html {
+	font-size: 15px;
+}
+
+.input {
+	@apply w-full rounded-xl border bg-slate-50 px-4 py-3 text-sm font-medium placeholder:font-light;
+}
+
+.fade-down-enter-active {
+	animation: fade-down 0.3s ease;
+}
+.fade-down-leave-active {
+	animation: fade-down 0.3s ease reverse;
+}
+@keyframes fade-down {
+	0% {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.fade-enter-active,
+.fade-leave-active {
+	transition: all 0.3s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+	opacity: 0;
+}
