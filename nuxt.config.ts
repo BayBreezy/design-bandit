@@ -11,8 +11,12 @@ const url = "https://designbandit.behonbaker.com";
 export default defineNuxtConfig({
 	modules: ["@nuxtjs/tailwindcss", "@vueuse/nuxt", "@kevinmarrec/nuxt-pwa"],
 	css: ["@/assets/main.css"],
+	build: {
+		transpile: ["@headlessui/vue"],
+	},
 	meta: {
 		title: title,
+		titleTemplate: "%s | Design Bandit",
 		link: [
 			{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
 			{

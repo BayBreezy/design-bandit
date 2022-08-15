@@ -76,4 +76,15 @@
 	}
 </style>
 
-<script setup></script>
+<script setup>
+	const image = ref("");
+	const meta = useGetMeta("Paypay", "Financial payment platform", image);
+	useHead({
+		title: "Paypay",
+		meta: meta,
+	});
+
+	onMounted(() => {
+		image.value = window.location.origin + "/paypay.png";
+	});
+</script>
