@@ -19,6 +19,7 @@
     "@headlessui/vue": "^1.6.7",
     "@kevinmarrec/nuxt-pwa": "^0.4.2",
     "apexcharts": "^3.35.4",
+    "codemirror-editor-vue3": "^2.1.7",
     "dayjs": "^1.11.5",
     "vue3-apexcharts": "^1.4.1"
   }
