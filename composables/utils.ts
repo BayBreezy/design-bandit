@@ -9,7 +9,11 @@ export const useMenu = () =>
 
 export const useActiveNavLink = () => useState("activeNavLink", () => "Invoices");
 
-export const useGetMeta = (title: string, description = "", image = "/icon.png") => {
+export const useGetMeta = (
+	title: string,
+	description = "",
+	image = "https://designbandit.behonbaker.com/icon.png"
+) => {
 	return [
 		{
 			hid: "description",
