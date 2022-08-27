@@ -25,3 +25,14 @@
 .fade-leave-to {
 	opacity: 0;
 }
+
+.level-enter-active,
+.level-leave-active {
+	transition: all 0.3s ease;
+}
+
+.level-enter-from,
+.level-leave-to {
+	opacity: 0;
+	transform: translateY(-10px);
+}

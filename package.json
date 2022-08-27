@@ -21,6 +21,7 @@
     "apexcharts": "^3.35.4",
     "codemirror-editor-vue3": "^2.1.7",
     "dayjs": "^1.11.5",
-    "vue3-apexcharts": "^1.4.1"
+    "vue3-apexcharts": "^1.4.1",
+    "vue3-treeview": "^0.4.0"
   }
 }

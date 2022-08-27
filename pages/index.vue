@@ -68,5 +68,12 @@
 			name: "Untitled UI Login.",
 			link: "/untitledui-login",
 		},
+		{
+			image:
+				"https://cdn.dribbble.com/users/3613044/screenshots/19211886/media/dab18297fe4b057a0c2e6704e92bb66a.png",
+			dribble: "https://dribbble.com/shots/19211886-Ceditor-Code-Editor-App",
+			name: "Ceditor",
+			link: "/ceditor",
+		},
 	];
 </script>
